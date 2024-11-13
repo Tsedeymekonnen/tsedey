@@ -12,7 +12,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHistory('/tsedey/'), // Use the base URL for GitHub Pages
+  history: createWebHistory(), // Leave this as default
   routes,
 });
 
