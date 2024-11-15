@@ -5,7 +5,7 @@ import AboutPage from '../views/AboutPage.vue';
 import ContactPage from '../views/ContactPage.vue';
 
 const routes = [
-  { path: '/', component: HomePage },
+  { path: '/tsedey', component: HomePage },
   { path: '/experience', component: ExperiencePage },
   { path: '/about', component: AboutPage },
   { path: '/contact', component: ContactPage },
