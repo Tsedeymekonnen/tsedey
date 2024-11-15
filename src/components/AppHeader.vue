@@ -8,7 +8,7 @@
       <span v-else>✖</span> <!-- Close icon when open -->
     </div>
     <nav class="nav-links" :class="{ 'mobile-view': isMenuOpen }">
-      <router-link to="/tsedey" exact-active-class="active-link">Home</router-link>
+      <router-link to="/tsedey/" exact-active-class="active-link">Home</router-link>
       <router-link to="/experience" exact-active-class="active-link">Experience</router-link>
       <router-link to="/about" exact-active-class="active-link">About</router-link>
       <router-link to="/contact" exact-active-class="active-link">Contact</router-link>
