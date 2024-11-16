@@ -1,7 +1,7 @@
 <template>
   <header class="header">
     <div class="logo">
-      <router-link to="/">Tsedey Mekonnen</router-link>
+      <router-link to="/tsedey/">Tsedey Mekonnen</router-link>
     </div>
     <div class="menu-icon" @click="toggleMenu">
       <span v-if="!isMenuOpen">☰</span> <!-- Menu icon when closed -->
